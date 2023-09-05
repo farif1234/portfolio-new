@@ -3,7 +3,7 @@ import experienceList from "@/data/experienceList";
 
 export default function Home() {
     return (
-        <div className="prose  lg:prose-lg mx-auto max-w-3xl p-2">
+        <div className="prose lg:prose-lg mx-auto max-w-3xl p-2">
             <div className="mb-1">
                 My journey so far <span className="animate-pulse">🚀</span>
             </div>
