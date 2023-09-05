@@ -22,11 +22,6 @@ const VerticalNavbar = () => {
                         Projects
                     </a>
                 </li>
-                <li className="mb-2">
-                    <a href="/skills" className="block hover:text-blue-500">
-                        Skills
-                    </a>
-                </li>
             </ul>
         </nav>
     );

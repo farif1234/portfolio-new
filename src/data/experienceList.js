@@ -7,7 +7,7 @@ const experienceList = [
         dateStart: "Jan 2023",
         dateEnd: "Present",
         desc: [
-            "Developed scripts in Python and C to interface with hardware components",
+            "Contract position. Developed scripts in Python and C to interface with hardware components on SoCs.",
             "Conducted performance tests on workload seeds, analyzing and measuring software performance across various power states.",
             "Configured and maintained Kubernetes clusters for testing, optimizing environments to ensure accurate results.",
         ],
@@ -33,7 +33,7 @@ const experienceList = [
         dateStart: "Sep 2020",
         dateEnd: "May 2021",
         desc: [
-            "Devised quarantine and isolation plans for over 1000 students and faculty.",
+            "Devised quarantine and isolation plans for over 1,000 students and faculty.",
             "Worked with EMR systems to track cases and update patient statuses.",
         ],
     },

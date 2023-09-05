@@ -14,7 +14,7 @@ const projectList = [
     {
         id: 4,
         title: "Portfolio",
-        desc: "This website! Adopted the awesome server-side rendering capabilities of NextJS. Inter font from Google Fonts. Icons from React Icon Library.",
+        desc: "This website! Adopted the server-side rendering capabilities of NextJS. Inter font from Google Fonts. Icons from React Icon Library.",
         imageURL: null,
         githubURL: "https://github.com/farif1234/portfolio-new",
         demo: "/",
@@ -33,12 +33,12 @@ const projectList = [
     {
         id: 2,
         title: "SpellWell",
-        desc: "Full stack application created for a high school competitive spelling team. Allow users to create personalized tests, receive accurate pronunciations/definitions through integration with Merriam-Webster's API, and utilize a secure login system to review their missed word.",
+        desc: "Full stack application created for a high school competitive spelling team. Allow users to create personalized tests, receive accurate pronunciations/definitions through integration with Merriam-Webster's API, and utilize a secure login system to review their missed words.",
         imageURL:
             "https://user-images.githubusercontent.com/88285952/205398596-68302bed-83ac-4754-85f6-5fcca696916c.png",
         githubURL: "https://github.com/farif1234/spellwell",
         demo: "https://spellwell.netlify.app",
-        tech: ["React", "Vite", "TailwindCSS", "JS", "Firebase"],
+        tech: ["React", "Vite", "TailwindCSS", "JS", "Firebase", "NoSQL"],
     },
     {
         id: 1,

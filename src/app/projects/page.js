@@ -15,12 +15,14 @@ export default function Home() {
                         id="project"
                         className="flex flex-row mb-6 px-3 py-3 rounded-xl group hover:bg-slate-200 duration-100"
                     >
-                        <div id="info" className="w-3/4 ">
+                        <div id="info" className="w-2/3  ">
                             <div
                                 id="title"
                                 className="flex flex-row justify-between items-center prose-h4:font-extrabold"
                             >
-                                <h4>{title}</h4>
+                                <h4 className="group-hover:text-blue-600 duration-100">
+                                    {title}
+                                </h4>
                                 <div
                                     id="urls"
                                     className="flex flex-row mr-7 group-hover:scale-110 duration-100"
@@ -57,15 +59,17 @@ export default function Home() {
                                 ))}
                             </div>
                         </div>
-                        <div id="image" className="">
+                        <div id="image" className="w-1/3">
                             {/* <img
                                 src={imageURL}
                                 width={250}
                                 height={150}
                                 className=" duration-100"
                             /> */}
-                            <ImageOverlay imageURL={imageURL} />
-                            {/* <a href={githubURL}>Github</a> */}
+                            {imageURL && <ImageOverlay imageURL={imageURL} />}
+                            {!imageURL && (
+                                <div className="rounded-lg bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-violet-500 to-orange-300 w-63 h-36"></div>
+                            )}
                         </div>
                     </div>
                 )

@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className="prose lg:prose-lg mx-auto max-w-3xl p-2">
             <div className="mb-1">
-                My journey so far <span className="animate-pulse">🚀</span>
+                My journey so far <span className="">🚀</span>
             </div>
             {experienceList.map(
                 ({
@@ -19,7 +19,7 @@ export default function Home() {
                 }) => (
                     <div
                         key={id}
-                        className="flex flex-row items-baseline justify-between group hover:bg-slate-200 duration-100  rounded-xl px-3"
+                        className="flex flex-row items-baseline justify-between group hover:bg-slate-200 duration-100  rounded-xl px-3 "
                     >
                         <div className="w-3/4 prose-p:mb-[1rem] prose-h4:font-extrabold prose-h4:group-hover: duration-100">
                             <h4 className="">
@@ -28,7 +28,6 @@ export default function Home() {
                                     @ {company}
                                 </span>
                             </h4>
-                            {/* <hr className=" prose not-prose"></hr> */}
                             {desc.map((dsc) => (
                                 <p className="prose not-prose pr-3">{`> ${dsc}`}</p>
                             ))}

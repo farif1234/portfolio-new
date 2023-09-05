@@ -18,7 +18,7 @@ function ImageOverlay({ imageURL }) {
                 src={imageURL}
                 width={250}
                 height={150}
-                className="duration-100 cursor-pointer"
+                className="duration-100 cursor-zoom-in rounded-lg"
                 onClick={showOverlay}
             />
             {overlayVisible && (
@@ -29,7 +29,7 @@ function ImageOverlay({ imageURL }) {
                     <img
                         src={imageURL}
                         alt="Enlarged Image"
-                        className="max-h-full max-w-full"
+                        className="max-h-full max-w-full cursor-zoom-out"
                     />
                 </div>
             )}
