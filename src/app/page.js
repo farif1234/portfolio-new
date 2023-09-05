@@ -5,16 +5,17 @@ export default function Home() {
     const link =
         "text-black hover:text-blue-500 hover:scale-125 duration-200 cursor-pointer";
     return (
-        <div className=" ">
-            <div className="prose  lg:prose-lg mx-auto max-w-3xl p-2">
-                <h3 className="flex flex-row justify-between items-center">
+        <div className="mt-4 ">
+            <div className="prose  lg:prose-lg mx-auto max-w-3xl p-2 prose-img:p-0 prose-img:m-0 prose-hr:mt-0 prose-hr:mb-5">
+                <h1 className="flex flex-row justify-between items-center">
                     <span>
-                        Hi, I'm Faihaan
-                        <img
+                        Hi, I'm{" "}
+                        <span className=" text-blue-600 ">Faihaan.</span>
+                        {/* <img
                             src="/Hi.gif"
                             width="30px"
                             className="inline-block ml-3"
-                        ></img>
+                        ></img> */}
                     </span>
 
                     <div className="flex w-1/3  justify-around  px-5   ">
@@ -31,34 +32,32 @@ export default function Home() {
                             <FaMailBulk className={link} size={25} />
                         </a>
                     </div>
-                </h3>
-                {/* <Image
-                    src="/me.jpg"
-                    width={300}
-                    height={500}
-                    className="scale-75"
-                /> */}
-                <p className="">
+                </h1>
+                <div className="flex  justify-center">
+                    <img
+                        src="/me-zoomed.jpg"
+                        height={160}
+                        width={160}
+                        className=" inline-block rounded-full prose prose-not hover:shadow-2xl hover:shadow-gray-500 duration-200 hover:scale-105"
+                    />
+                </div>
+                <p className="lead pt-7 text-center">
                     I'm a CS student 👨‍🎓, aspiring software engineer 👨‍💻, and a
-                    lifelong learner 📚. Currently, I have the privilege of
-                    working as a software test engineer intern at{" "}
-                    <span className=" ">Intel</span>. My interests are
-                    full-stack development, database design, and healthcare
-                    tech.
+                    lifelong learner 📚.{" "}
                 </p>
-                {/* <p>
-                    Currently, I have the privilege of working as a software
-                    test engineer intern at Intel. My interests are full-stack
-                    development, database design, and healthcare tech.
-                </p> */}
+                <hr></hr>
+                <p className="">
+                    Currently, I'm working on an awesome project as a software
+                    test engineer intern at{" "}
+                    <span className=" text-blue-600 font-bold">Intel</span>. My
+                    interests are full-stack development, database design, and
+                    healthcare tech.
+                </p>
                 <p>
-                    Prior to my transition into tech, I earned a degree in
-                    Biology from{" "}
-                    <span className=" text-yellow-400 font-semibold ">
-                        Purdue
-                    </span>{" "}
-                    and had plans for medical school. However, I realized what I
-                    really wanted in a career was to
+                    Prior to my transition into tech, I earned a BS in Biology
+                    from <span className=" ">Purdue</span> and had plans for
+                    medical school. However, I realized what I really wanted in
+                    a career was to
                     <span className="font-bold"> build things</span> and{" "}
                     <span className="font-bold">solve problems</span>. That's
                     when I delved into programming and it was love at first
@@ -67,7 +66,8 @@ export default function Home() {
                         Oregon State
                     </span>
                     's post-baccalaureate program to pursue a degree in Computer
-                    Science, and I'm excited to advance in my career.
+                    Science, and I'm looking forward to grow and learn as a
+                    software developer.
                 </p>
                 <p>
                     When I'm not furiously debugging, you can find me lifting
