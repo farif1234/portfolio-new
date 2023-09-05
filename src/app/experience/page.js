@@ -28,8 +28,11 @@ export default function Home() {
                                     @ {company}
                                 </span>
                             </h4>
-                            {desc.map((dsc) => (
-                                <p className="prose not-prose pr-3">{`> ${dsc}`}</p>
+                            {desc.map((dsc, idx) => (
+                                <p
+                                    key={idx}
+                                    className="prose not-prose pr-3"
+                                >{`> ${dsc}`}</p>
                             ))}
                         </div>
                         <div className="prose  prose-stone w-1/4 font-light text-sm group-hover:font-bold duration-100 pl-2   ">

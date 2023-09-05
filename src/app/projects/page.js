@@ -12,6 +12,7 @@ export default function Home() {
             {projectList.map(
                 ({ id, title, desc, imageURL, githubURL, demo, tech }) => (
                     <div
+                        key={id}
                         id="project"
                         className="flex flex-row mb-6 px-3 py-3 rounded-xl group hover:bg-slate-200 duration-100"
                     >
@@ -52,8 +53,11 @@ export default function Home() {
                             </div>
                             <p className="text-sm pr-5">{desc}</p>
                             <div className="flex flex-row">
-                                {tech.map((t) => (
-                                    <span className="text-xs rounded-lg px-1 py-[1.75px] mr-2 font-bold bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-sky-300 to-blue-300  duration-100 ">
+                                {tech.map((t, idx) => (
+                                    <span
+                                        key={idx}
+                                        className="text-xs rounded-lg px-1 py-[1.75px] mr-2 font-bold bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-sky-300 to-blue-300  duration-100 "
+                                    >
                                         {t}
                                     </span>
                                 ))}
