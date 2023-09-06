@@ -3,7 +3,7 @@ import experienceList from "@/data/experienceList";
 
 export default function Home() {
     return (
-        <div className="prose lg:prose-lg mx-auto max-w-3xl p-2">
+        <div className="prose prose-sm md:prose-lg mx-auto max-w-3xl p-2">
             <div className="mb-1">
                 My journey so far <span className="">🚀</span>
             </div>
@@ -31,11 +31,11 @@ export default function Home() {
                             {desc.map((dsc, idx) => (
                                 <p
                                     key={idx}
-                                    className="prose not-prose pr-3"
+                                    className="md:prose md:not-prose pr-3"
                                 >{`> ${dsc}`}</p>
                             ))}
                         </div>
-                        <div className="prose  prose-stone w-1/4 font-light text-sm group-hover:font-bold duration-100 pl-2   ">
+                        <div className="prose  prose-stone w-1/4 font-light max-md:text-xs text-sm md:group-hover:font-bold duration-100 pl-2   ">
                             {dateStart} - {dateEnd}
                             <p>{location}</p>
                         </div>

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 function ImageOverlay({ imageURL }) {
     const [overlayVisible, setOverlayVisible] = useState(false);
@@ -26,8 +27,11 @@ function ImageOverlay({ imageURL }) {
                     className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-30"
                     onClick={hideOverlay}
                 >
-                    <img
+                    <Image
+                        unoptimized
                         src={imageURL}
+                        width={"1500"}
+                        height={"1500"}
                         alt="Enlarged Image"
                         className="max-h-full max-w-full cursor-zoom-out"
                     />
