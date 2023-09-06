@@ -5,40 +5,40 @@ export default function Home() {
     const link =
         "text-black hover:text-blue-500 hover:scale-125 duration-200 cursor-pointer";
     return (
-        <div className="mt-4 ">
-            <div className="prose  lg:prose-lg mx-auto max-w-3xl p-2 prose-img:p-0 prose-img:m-0 prose-hr:mt-0 prose-hr:mb-5">
-                <h1 className="flex flex-row justify-between items-center">
+        <div className="md:mt-4 ">
+            <div className="prose prose-sm  md:prose-lg mx-auto max-w-3xl p-2 prose-img:p-0 prose-img:m-0 prose-hr:mt-0 prose-hr:mb-5">
+                <h1 className="flex  flex-row justify-between items-center ">
                     <span>
                         Hi, I'm{" "}
                         <span className=" text-blue-600 ">Faihaan.</span>
-                        {/* <img
-                            src="/Hi.gif"
-                            width="30px"
-                            className="inline-block ml-3"
-                        ></img> */}
                     </span>
 
-                    <div className="flex w-1/3  justify-around  px-5   ">
-                        <a href="https://github.com/farif1234" target="_blank">
+                    <div className="flex w-1/3  justify-around  px-5 max-md:mt-5  ">
+                        <a
+                            href="https://github.com/farif1234"
+                            target="_blank"
+                            className=""
+                        >
                             <FaGithub className={link} size={25} />
                         </a>
                         <a
                             href="https://www.linkedin.com/in/faihaan-arif"
                             target="_blank"
+                            className="max-md:px-3"
                         >
                             <FaLinkedin className={link} size={25} />
                         </a>
-                        <a href="mailto:farif.dev@gmail.com">
+                        <a href="mailto:farif.dev@gmail.com" className="">
                             <FaMailBulk className={link} size={25} />
                         </a>
                     </div>
                 </h1>
                 <div className="flex  justify-center">
-                    <img
+                    <Image
                         src="/me-zoomed.jpg"
                         height={160}
                         width={160}
-                        className=" inline-block rounded-full prose prose-not hover:shadow-2xl hover:shadow-gray-500 duration-200 hover:scale-105"
+                        className="max-md:scale-75 inline-block rounded-full prose prose-not hover:shadow-2xl hover:shadow-gray-500 duration-200 hover:scale-105"
                     />
                 </div>
                 <p className="lead pt-7 text-center">

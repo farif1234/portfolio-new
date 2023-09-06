@@ -2,9 +2,9 @@ import React from "react";
 
 const VerticalNavbar = () => {
     return (
-        <nav className=" w-1/4  p-4 border-r-2 border-blue-800 ">
+        <nav className=" w-1/4  p-4 border-r-2 border-blue-800 max-md:text-xs">
             <div className="mb-8">
-                <h2 className="text-xl font-semibold">Faihaan Arif</h2>
+                <h2 className="md:text-xl font-semibold">Faihaan Arif</h2>
             </div>
             <ul>
                 <li className="mb-2">
