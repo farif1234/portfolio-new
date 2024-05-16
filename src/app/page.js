@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import ScrambleText from "@/components/ScrambleText";
 
 export default function Home() {
     const link =
         "text-black hover:text-blue-500 hover:scale-125 duration-200 cursor-pointer";
     return (
         <div className="md:mt-4 ">
-            <div className="prose prose-sm  md:prose-lg mx-auto max-w-3xl p-2 prose-img:p-0 prose-img:m-0 prose-hr:mt-0 prose-hr:mb-5">
+            <div className="prose prose-sm  md:prose-lg mx-auto max-w-3xl p-2 prose-img:p-0 prose-img:m-0 prose-hr:mt-0 prose-hr:mb-5 prose-h1:m-0 prose-lead:text-xs  md:prose-lead:text-xl ">
                 <h1 className="flex  flex-row justify-between items-center ">
                     <span>
                         Hi, I'm{" "}
@@ -33,7 +34,12 @@ export default function Home() {
                         </a>
                     </div>
                 </h1>
-                <div className="flex  justify-center">
+                <div className="lead italic w-fit font-light  ">
+                    {/* I'm a CS student 👨‍🎓, aspiring software engineer 👨‍💻, and a
+                    lifelong learner 📚.{" "} */}
+                    <ScrambleText />
+                </div>
+                <div className="flex  justify-center mb-5">
                     <Image
                         src="/me-zoomed.jpg"
                         height={160}
@@ -41,17 +47,15 @@ export default function Home() {
                         className="max-md:scale-75 inline-block rounded-full prose prose-not hover:shadow-2xl hover:shadow-gray-500 duration-200 hover:scale-105"
                     />
                 </div>
-                <p className="lead pt-7 text-center">
-                    I'm a CS student 👨‍🎓, aspiring software engineer 👨‍💻, and a
-                    lifelong learner 📚.{" "}
-                </p>
+
                 <hr></hr>
+                <h3 className="">About Me</h3>
                 <p className="">
-                    Currently, I'm working on an awesome project as a software
-                    test engineer intern at{" "}
-                    <span className=" text-blue-600 font-bold">Intel</span>. My
-                    interests are full-stack development, database design, and
-                    healthcare tech.
+                    Currently, I'm working on some awesome projects as a
+                    solutions engineer analyst at{" "}
+                    <span className=" font-bold fonnt- ">Deloitte</span>. My
+                    interests are full-stack development, software architecture,
+                    and healthcare tech.
                 </p>
                 <p>
                     Prior to my transition into tech, I earned a BS in Biology
