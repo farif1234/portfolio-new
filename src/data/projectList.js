@@ -2,6 +2,16 @@
 // Developed backend infrastructure and implemented a database solution to cache results after processing large volumes of OpenStreetMap data, resulting in load time reduction of 70%
 const projectList = [
     {
+        id: 6,
+        title: "Nimbus - Rainy Pomodoro Timer",
+        desc: "Rain storm to help you brainstorm. Classic Pomodoro timer made with a rainy day aesthetic.",
+        imageURL:
+            "https://private-user-images.githubusercontent.com/88285952/331370192-756d54dd-e1cc-4f0f-a3ed-3c249a3509ed.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU4OTc3MDcsIm5iZiI6MTcxNTg5NzQwNywicGF0aCI6Ii84ODI4NTk1Mi8zMzEzNzAxOTItNzU2ZDU0ZGQtZTFjYy00ZjBmLWEzZWQtM2MyNDlhMzUwOWVkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE2VDIyMTAwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc0ZGFhMjEwNjkxMjA5ZWIxOWU2YThjNzI1MzgzMTMwZmQxZWYxNmU4Y2E2ZjQzOTI4Njc1MTFkNWYyNzA2ODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.SQ8KUMwifTG0mUpvfvh49kwKySmRdAnYBeugoR7_1iw",
+        githubURL: "https://github.com/farif1234/rainy-pomodoro-timer",
+        demo: "https://rainy-pomodoro-timer.vercel.app/",
+        tech: ["React", "Vite", "Framer Motion", "TailwindCSS"],
+    },
+    {
         id: 5,
         title: "Emergency Services Analytics",
         desc: "Collaboration with Levrum Data Technologies to design a web application enabling fire departments to visualize coverage on a map and identify service gaps.",
