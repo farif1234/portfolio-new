@@ -39,23 +39,23 @@ export default function Home() {
                     lifelong learner 📚.{" "} */}
                     <ScrambleText />
                 </div>
-                <div className="flex  justify-center mb-5">
+                <div className="flex  justify-center mt-10 mb-5 ">
                     <Image
                         src="/me-zoomed.jpg"
                         height={160}
                         width={160}
-                        className="max-md:scale-75 inline-block rounded-full prose prose-not hover:shadow-2xl hover:shadow-gray-500 duration-200 hover:scale-105"
+                        className="max-md:scale-75 inline-block rounded-full prose prose-not hover:shadow-2xl hover:shadow-gray-500 duration-200 hover:scale-105 border-2 border-blue-600 "
                     />
                 </div>
 
                 <hr></hr>
-                <h3 className="">About Me</h3>
+                <h3 className="">About Me 👨‍💻</h3>
                 <p className="">
                     Currently, I'm working on some awesome projects as a
-                    solutions engineer analyst at{" "}
-                    <span className=" font-bold fonnt- ">Deloitte</span>. My
-                    interests are full-stack development, software architecture,
-                    and healthcare tech.
+                    Solutions Engineer Analyst at{" "}
+                    <span className=" font-bold text-amber-500 ">Deloitte</span>
+                    . My interests are full-stack development, software
+                    architecture, and healthcare tech.
                 </p>
                 <p>
                     Prior to my transition into tech, I earned a BS in Biology
