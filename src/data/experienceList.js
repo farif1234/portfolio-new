@@ -1,11 +1,21 @@
 const experienceList = [
     {
+        id: 4,
+        title: "Solutions Engineer",
+        company: "Deloitte",
+        location: "Portland, OR",
+        dateStart: "Jun 2024",
+        dateEnd: "Present",
+        desc: ["Excited to start!"],
+    },
+
+    {
         id: 3,
         title: "Software Test Engineer Intern",
         company: "Intel Corporation",
         location: "Hillsboro, OR",
         dateStart: "Jan 2023",
-        dateEnd: "Present",
+        dateEnd: "Oct 2023",
         desc: [
             "Contract position. Developed scripts in Python and C to interface with hardware components on SoCs.",
             "Conducted performance tests on workload seeds, analyzing and measuring software performance across various power states.",

@@ -2,6 +2,16 @@
 // Developed backend infrastructure and implemented a database solution to cache results after processing large volumes of OpenStreetMap data, resulting in load time reduction of 70%
 const projectList = [
     {
+        id: 6,
+        title: "Nimbus - Rainy Pomodoro Timer",
+        desc: "Rain storm to help you brainstorm. Classic Pomodoro timer made with a rainy day aesthetic.",
+        imageURL:
+            "https://raw.githubusercontent.com/farif1234/rainy-pomodoro-timer/main/nimbus.png",
+        githubURL: "https://github.com/farif1234/rainy-pomodoro-timer",
+        demo: "https://rainy-pomodoro-timer.vercel.app/",
+        tech: ["React", "Vite", "Framer Motion", "TailwindCSS"],
+    },
+    {
         id: 5,
         title: "Emergency Services Analytics",
         desc: "Collaboration with Levrum Data Technologies to design a web application enabling fire departments to visualize coverage on a map and identify service gaps.",
